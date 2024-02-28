@@ -1,3 +1,10 @@
+
+# Desafio2 trilha react
+https://www.loom.com/share/f6eed1249e52490d8b344bba1edf0396?sid=05bd6fed-e98b-496a-9596-2e505701c34e
+
++ Consumir api de diretorios do GITHUB.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
