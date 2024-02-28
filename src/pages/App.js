@@ -33,19 +33,16 @@ function App() {
       if (e.message.includes('404')) {
         alert('Digite um nome de repositório valído: \n joao/meusite')
       } else {
-        alert('Erro: ', e)
+        alert('Erro: ' + e)
       }
     }
 
   }
 
   const handleRemoveRepo = (id) => {
-    console.log('Removendo registro', id);
     // saber o id 
     const update = repos.filter(rep => rep.id !== id);
     setRepos(update);
-    setCurrentRepo('');
-    alert('Removido com sucesso')
   }
 
 
